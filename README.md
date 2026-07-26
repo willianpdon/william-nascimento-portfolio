@@ -104,8 +104,7 @@ fabricated content.
 
 ### Known placeholders (`src/content/profile.ts`)
 
-- `linkedinUrl` / `githubUrl` — set to placeholder URLs, need William's real
-  profile links
+- `linkedinUrl` / `githubUrl` — set to William's real profile links
 - `cv.en` / `cv.pt` — no CV file wired in yet; the Download CV button renders
   disabled with "CV available soon" until real files are added
 
