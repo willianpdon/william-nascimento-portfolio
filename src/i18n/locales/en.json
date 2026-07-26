@@ -1,0 +1,260 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "journey": "Journey",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "kicker": "Technical Lead · Dublin, Ireland",
+    "name": "William Nascimento",
+    "role": "Technical Lead & Senior Software Engineer",
+    "summary": "Nearly 14 years of experience in software engineering, including around 8 years in banking technology, fraud prevention, payments and identity. I design and lead the development of resilient backend platforms for regulated, high-stakes environments.",
+    "themesLabel": "Focus areas",
+    "themes": [
+      "Java & Backend Engineering",
+      "Fraud Prevention",
+      "Payments & 3-D Secure",
+      "Distributed Systems",
+      "Technical Leadership"
+    ],
+    "ctaContact": "Get in touch",
+    "ctaDownloadCV": "Download CV",
+    "ctaDownloadCVUnavailable": "CV available soon",
+    "linkedinLabel": "LinkedIn profile",
+    "githubLabel": "GitHub profile",
+    "photoAlt": "Portrait of William Nascimento",
+    "panel": {
+      "title": "profile.status",
+      "location": { "label": "based_in", "value": "Dublin, Ireland" },
+      "role": { "label": "role", "value": "Technical Lead · Senior Backend Engineer" },
+      "focus": { "label": "focus", "value": "Backend · Fraud · Payments" },
+      "experience": { "label": "experience", "value": "~14 yrs" }
+    }
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "A brief introduction",
+    "paragraphs": [
+      "I'm a technology professional with close to 14 years of experience in software engineering and technical leadership. Over the last eight years, I've focused on the financial sector — fraud prevention, security, identity, authentication, payments and mission-critical banking systems.",
+      "I've worked at two of Brazil's largest financial institutions, Itaú Unibanco and Bradesco, contributing to initiatives with meaningful impact on customers, operations and security.",
+      "My experience goes beyond writing code. I've worked on solution architecture, integrations, technical design, team leadership, communication with business and vendor stakeholders, delivery tracking, incident resolution and decision-making in complex, high-stakes environments.",
+      "I've also worked with large-scale platforms — in some of these roles, with systems processing around 8,000 transactions per second.",
+      "I'm currently based in Dublin, Ireland, strengthening my English, broadening my international experience and preparing for the next stage of my career."
+    ],
+    "stats": [
+      { "label": "Years in technology", "value": "~14" },
+      { "label": "Years in banking technology", "value": "~8" },
+      { "label": "Peak throughput handled", "value": "~8,000 req/s" }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Professional Experience",
+    "title": "Where I've worked",
+    "intro": "An overview of my recent roles in banking technology and fraud prevention. Internal team names and confidential details are intentionally omitted.",
+    "responsibilitiesLabel": "Focus areas",
+    "technologiesLabel": "Technologies and platforms involved",
+    "recognitionLabel": "Recognition",
+    "items": [
+      {
+        "company": "Bradesco",
+        "location": "Brazil",
+        "period": "Aug 2024 – Apr 2026",
+        "roles": ["Technical Lead", "Technology Leadership Role (Value Stream Manager)"],
+        "summary": "Led technical direction for fraud prevention and device security initiatives, moving between hands-on technical leadership and a broader technology leadership role over the course of the engagement.",
+        "responsibilities": [
+          "Technical leadership across fraud prevention, login and device-change flows",
+          "Device security and validation, and operational limits",
+          "Anti-money laundering prevention initiatives",
+          "Integration with fraud decision platforms",
+          "Microservices architecture and integration between critical systems",
+          "Definition of technical solutions and delivery tracking",
+          "Collaboration with cross-functional teams",
+          "Communication across technology, security, business and vendor stakeholders",
+          "Complex problem-solving and support for architectural decisions"
+        ],
+        "technologies": [
+          "Java",
+          "Microservices",
+          "APIs",
+          "Kafka",
+          "MongoDB",
+          "SQL Server",
+          "Azure",
+          "AWS",
+          "Kubernetes",
+          "Amazon EKS",
+          "FICO DMP",
+          "FICO Decision Management",
+          "Topaz",
+          "Distributed systems",
+          "High availability"
+        ]
+      },
+      {
+        "company": "Itaú Unibanco",
+        "location": "Brazil",
+        "period": "~6 years — until Jul 2024",
+        "roles": ["Technical Lead — Fraud Prevention and Banking Technology"],
+        "summary": "Provided technical leadership for fraud prevention within mission-critical banking systems, spanning backend architecture, security integrations and strategic technical decisions.",
+        "responsibilities": [
+          "Technical leadership in fraud prevention",
+          "Mission-critical banking systems",
+          "Backend solution architecture and development",
+          "Integrations with security and payments platforms",
+          "Participation in technical and strategic decisions",
+          "Technical support to development teams",
+          "Communication with business, vendors and other areas",
+          "Tracking of critical deliveries",
+          "Work in large-scale, high-availability environments"
+        ],
+        "technologies": [],
+        "initiatives": [
+          {
+            "title": "3-D Secure 2.0",
+            "description": "Technical lead for the design of a 3-D Secure 2.0 solution integrated with Visa's VCAS, covering authentication of digital payment transactions within the Visa ecosystem.",
+            "highlights": [
+              "Digital payment security",
+              "Transaction authentication",
+              "Visa ecosystem integration",
+              "Solution architecture"
+            ]
+          },
+          {
+            "title": "Celular Seguro",
+            "description": "Contributed to a fast-turnaround delivery — around 25 days — integrating multiple systems to strengthen customer device security.",
+            "highlights": [
+              "Challenging timeline",
+              "Cross-system integration",
+              "Customer security",
+              "Cross-team collaboration"
+            ]
+          },
+          {
+            "title": "Financial Product Onboarding",
+            "description": "Worked on onboarding journeys for cards, bank accounts, payroll-deducted credit and vehicle financing.",
+            "highlights": ["Cards", "Bank accounts", "Payroll-deducted credit", "Vehicle financing"]
+          }
+        ],
+        "recognition": "Received a professional recognition at Itaú Unibanco in 2024 (exact title pending confirmation)."
+      }
+    ]
+  },
+  "expertise": {
+    "eyebrow": "Expertise",
+    "title": "Where I add the most value",
+    "intro": "Grouped by area rather than a skill percentage — proficiency is best judged in context, not as a number.",
+    "groups": [
+      {
+        "title": "Backend Engineering",
+        "items": [
+          "Java",
+          "REST APIs",
+          "Microservices",
+          "Integrations",
+          "Distributed systems",
+          "High-volume processing",
+          "Resilience",
+          "Scalability",
+          "Observability",
+          "High availability"
+        ]
+      },
+      {
+        "title": "Fraud Prevention & Security",
+        "items": [
+          "Fraud prevention",
+          "Transaction monitoring",
+          "Identity and authentication",
+          "Device security",
+          "Login protection",
+          "Device change validation",
+          "Anti-money laundering concepts",
+          "Risk decision platforms",
+          "Play Integrity API",
+          "Secure customer journeys"
+        ]
+      },
+      {
+        "title": "Banking & Payments",
+        "items": [
+          "Banking technology",
+          "Digital payments",
+          "3-D Secure 2.0",
+          "Visa VCAS",
+          "Customer onboarding",
+          "Cards",
+          "Bank accounts",
+          "Loans",
+          "Vehicle financing",
+          "Critical financial systems"
+        ]
+      },
+      {
+        "title": "Architecture & Cloud",
+        "items": [
+          "Solution architecture",
+          "Event-driven architecture",
+          "Kafka",
+          "Azure",
+          "AWS",
+          "Kubernetes",
+          "Amazon EKS",
+          "MongoDB",
+          "SQL Server",
+          "Cloud-native concepts"
+        ]
+      },
+      {
+        "title": "Technical Leadership",
+        "items": [
+          "Technical decision-making",
+          "Solution design",
+          "Engineering leadership",
+          "Mentoring",
+          "Cross-functional collaboration",
+          "Stakeholder communication",
+          "Incident resolution",
+          "Delivery coordination",
+          "Translating business needs into technical solutions"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certifications & Education",
+    "title": "Credentials",
+    "certificationsTitle": "Certifications",
+    "educationTitle": "Education",
+    "credentialPending": "Credential link pending",
+    "viewCredential": "View credential",
+    "certificationsList": [
+      {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "code": "AZ-900",
+        "issuer": "Microsoft",
+        "date": "October 2024",
+        "credentialUrl": null
+      }
+    ],
+    "educationList": [
+      {
+        "program": "Systems Analysis and Development",
+        "institution": "FIAP",
+        "status": "Coursework not completed"
+      }
+    ]
+  },
+  "common": {
+    "languageSwitchLabel": "Change language",
+    "english": "English",
+    "portuguese": "Português"
+  }
+}

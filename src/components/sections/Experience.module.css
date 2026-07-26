@@ -1,0 +1,194 @@
+.experience {
+  padding-block: var(--space-24);
+  scroll-margin-top: var(--header-height);
+  border-top: 1px solid var(--color-border);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+  position: relative;
+}
+
+.item {
+  position: relative;
+  padding-inline-start: var(--space-8);
+  border-inline-start: 2px solid var(--color-border);
+}
+
+.itemMarker {
+  position: absolute;
+  inset-inline-start: -7px;
+  inset-block-start: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--color-accent);
+}
+
+.itemHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.company {
+  font-size: var(--fs-lg);
+  color: var(--color-text-primary);
+}
+
+.location {
+  font-weight: var(--fw-regular);
+  color: var(--color-text-muted);
+  font-size: var(--fs-sm);
+}
+
+.period {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-block-start: var(--space-3);
+}
+
+.role {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-secondary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-3);
+}
+
+.summary {
+  margin-block-start: var(--space-4);
+  max-width: 70ch;
+  font-size: var(--fs-md);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-normal);
+}
+
+.subheading {
+  margin-block-start: var(--space-6);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.responsibilities {
+  margin-block-start: var(--space-3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-2) var(--space-6);
+}
+
+.responsibility {
+  position: relative;
+  padding-inline-start: var(--space-4);
+  font-size: var(--fs-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-snug);
+}
+
+.responsibility::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 0.6em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-accent-secondary);
+}
+
+.techList {
+  margin-block-start: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.techTag {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--color-text-secondary);
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-accent-soft-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-2);
+}
+
+.initiatives {
+  margin-block-start: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.initiative {
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.initiativeTitle {
+  font-size: var(--fs-base);
+  color: var(--color-text-primary);
+}
+
+.initiativeDescription {
+  margin-block-start: var(--space-2);
+  font-size: var(--fs-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-normal);
+}
+
+.initiativeHighlights {
+  margin-block-start: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.initiativeHighlight {
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-3);
+}
+
+.recognition {
+  margin-block-start: var(--space-6);
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.24);
+  font-size: var(--fs-sm);
+  color: var(--color-text-secondary);
+}
+
+.recognitionLabel {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--color-accent-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

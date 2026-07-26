@@ -1,0 +1,260 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "expertise": "Especialidades",
+    "projects": "Projetos",
+    "certifications": "Certificações",
+    "journey": "Jornada",
+    "contact": "Contato",
+    "menuOpen": "Abrir menu",
+    "menuClose": "Fechar menu",
+    "skipToContent": "Pular para o conteúdo principal"
+  },
+  "hero": {
+    "kicker": "Technical Lead · Dublin, Irlanda",
+    "name": "William Nascimento",
+    "role": "Technical Lead & Engenheiro de Software Sênior",
+    "summary": "Quase 14 anos de experiência em engenharia de software, incluindo cerca de 8 anos em tecnologia bancária, prevenção a fraudes, pagamentos e identidade. Projeto e lidero o desenvolvimento de plataformas backend resilientes para ambientes regulados e de alta criticidade.",
+    "themesLabel": "Áreas de foco",
+    "themes": [
+      "Java & Engenharia Backend",
+      "Prevenção a Fraudes",
+      "Pagamentos & 3-D Secure",
+      "Sistemas Distribuídos",
+      "Liderança Técnica"
+    ],
+    "ctaContact": "Entrar em contato",
+    "ctaDownloadCV": "Baixar Currículo",
+    "ctaDownloadCVUnavailable": "Currículo em breve",
+    "linkedinLabel": "Perfil no LinkedIn",
+    "githubLabel": "Perfil no GitHub",
+    "photoAlt": "Retrato de William Nascimento",
+    "panel": {
+      "title": "profile.status",
+      "location": { "label": "baseado_em", "value": "Dublin, Irlanda" },
+      "role": { "label": "cargo", "value": "Technical Lead · Senior Backend Engineer" },
+      "focus": { "label": "foco", "value": "Backend · Fraude · Pagamentos" },
+      "experience": { "label": "experiencia", "value": "~14 anos" }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre Mim",
+    "title": "Uma breve apresentação",
+    "paragraphs": [
+      "Sou um profissional de tecnologia com quase 14 anos de experiência em engenharia de software e liderança técnica. Nos últimos oito anos, concentrei minha atuação no setor financeiro — prevenção a fraudes, segurança, identidade, autenticação, pagamentos e sistemas bancários de missão crítica.",
+      "Trabalhei em duas das maiores instituições financeiras do Brasil, Itaú Unibanco e Bradesco, contribuindo para iniciativas com impacto relevante para clientes, operações e segurança.",
+      "Minha experiência vai além do código. Atuei em arquitetura de soluções, integrações, desenho técnico, liderança de equipes, comunicação com áreas de negócio e fornecedores, acompanhamento de entregas, resolução de incidentes e tomada de decisão em ambientes complexos e de alta criticidade.",
+      "Também trabalhei com plataformas de grande escala — em algumas dessas atuações, com sistemas que processavam cerca de 8.000 transações por segundo.",
+      "Atualmente moro em Dublin, na Irlanda, fortalecendo meu inglês, ampliando minha experiência internacional e me preparando para a próxima etapa da minha carreira."
+    ],
+    "stats": [
+      { "label": "Anos em tecnologia", "value": "~14" },
+      { "label": "Anos em tecnologia bancária", "value": "~8" },
+      { "label": "Pico de throughput", "value": "~8.000 req/s" }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experiência Profissional",
+    "title": "Onde já atuei",
+    "intro": "Um panorama das minhas atuações recentes em tecnologia bancária e prevenção a fraudes. Nomes internos de equipes e detalhes confidenciais foram propositalmente omitidos.",
+    "responsibilitiesLabel": "Áreas de atuação",
+    "technologiesLabel": "Tecnologias e plataformas envolvidas",
+    "recognitionLabel": "Reconhecimento",
+    "items": [
+      {
+        "company": "Bradesco",
+        "location": "Brasil",
+        "period": "ago/2024 – abr/2026",
+        "roles": ["Technical Lead", "Cargo de liderança tecnológica (Value Stream Manager)"],
+        "summary": "Liderei tecnicamente iniciativas de prevenção a fraudes e segurança de dispositivos, alternando entre liderança técnica direta e um papel mais amplo de liderança tecnológica ao longo da atuação.",
+        "responsibilities": [
+          "Liderança técnica em prevenção a fraudes, login e troca de dispositivo",
+          "Segurança e validação de dispositivos, e limites operacionais",
+          "Iniciativas de prevenção à lavagem de dinheiro",
+          "Integração com plataformas de decisão antifraude",
+          "Arquitetura de microsserviços e integração entre sistemas críticos",
+          "Definição de soluções técnicas e acompanhamento de entregas",
+          "Colaboração com equipes multidisciplinares",
+          "Comunicação entre tecnologia, segurança, negócio e fornecedores",
+          "Resolução de problemas complexos e apoio a decisões arquiteturais"
+        ],
+        "technologies": [
+          "Java",
+          "Microsserviços",
+          "APIs",
+          "Kafka",
+          "MongoDB",
+          "SQL Server",
+          "Azure",
+          "AWS",
+          "Kubernetes",
+          "Amazon EKS",
+          "FICO DMP",
+          "FICO Decision Management",
+          "Topaz",
+          "Sistemas distribuídos",
+          "Alta disponibilidade"
+        ]
+      },
+      {
+        "company": "Itaú Unibanco",
+        "location": "Brasil",
+        "period": "~6 anos — até jul/2024",
+        "roles": ["Technical Lead — Prevenção a Fraudes e Tecnologia Bancária"],
+        "summary": "Atuei como referência técnica em prevenção a fraudes dentro de sistemas bancários de missão crítica, com participação em arquitetura backend, integrações de segurança e decisões técnicas estratégicas.",
+        "responsibilities": [
+          "Liderança técnica em prevenção a fraudes",
+          "Sistemas bancários de missão crítica",
+          "Arquitetura e desenvolvimento de soluções backend",
+          "Integrações com plataformas de segurança e pagamentos",
+          "Participação em decisões técnicas e estratégicas",
+          "Apoio técnico a equipes de desenvolvimento",
+          "Comunicação com negócio, fornecedores e outras áreas",
+          "Acompanhamento de entregas críticas",
+          "Atuação em ambientes de grande escala e alta disponibilidade"
+        ],
+        "technologies": [],
+        "initiatives": [
+          {
+            "title": "3-D Secure 2.0",
+            "description": "Fui responsável técnico pelo desenho de uma solução de 3-D Secure 2.0 integrada ao VCAS da Visa, contemplando a autenticação de transações de pagamento digital dentro do ecossistema Visa.",
+            "highlights": [
+              "Segurança em pagamentos digitais",
+              "Autenticação de transações",
+              "Integração com o ecossistema Visa",
+              "Arquitetura de solução"
+            ]
+          },
+          {
+            "title": "Celular Seguro",
+            "description": "Contribuí para uma entrega com prazo desafiador — cerca de 25 dias — integrando diferentes sistemas para reforçar a segurança dos dispositivos dos clientes.",
+            "highlights": [
+              "Prazo desafiador",
+              "Integração entre sistemas",
+              "Segurança do cliente",
+              "Colaboração entre equipes"
+            ]
+          },
+          {
+            "title": "Onboarding de Produtos Financeiros",
+            "description": "Atuei em jornadas de onboarding de cartões, contas bancárias, crédito consignado e financiamento de veículos.",
+            "highlights": ["Cartões", "Contas bancárias", "Crédito consignado", "Financiamento de veículos"]
+          }
+        ],
+        "recognition": "Recebi um reconhecimento profissional no Itaú Unibanco em 2024 (título exato a confirmar)."
+      }
+    ]
+  },
+  "expertise": {
+    "eyebrow": "Especialidades",
+    "title": "Onde eu agrego mais valor",
+    "intro": "Organizado por área em vez de porcentagem de habilidade — nível de domínio se avalia no contexto, não em um número.",
+    "groups": [
+      {
+        "title": "Engenharia Backend",
+        "items": [
+          "Java",
+          "APIs REST",
+          "Microsserviços",
+          "Integrações",
+          "Sistemas distribuídos",
+          "Processamento de alto volume",
+          "Resiliência",
+          "Escalabilidade",
+          "Observabilidade",
+          "Alta disponibilidade"
+        ]
+      },
+      {
+        "title": "Prevenção a Fraudes & Segurança",
+        "items": [
+          "Prevenção a fraudes",
+          "Monitoramento de transações",
+          "Identidade e autenticação",
+          "Segurança de dispositivos",
+          "Proteção de login",
+          "Validação de troca de dispositivo",
+          "Conceitos de prevenção à lavagem de dinheiro",
+          "Plataformas de decisão de risco",
+          "Play Integrity API",
+          "Jornadas seguras para o cliente"
+        ]
+      },
+      {
+        "title": "Bancos & Pagamentos",
+        "items": [
+          "Tecnologia bancária",
+          "Pagamentos digitais",
+          "3-D Secure 2.0",
+          "Visa VCAS",
+          "Onboarding de clientes",
+          "Cartões",
+          "Contas bancárias",
+          "Empréstimos",
+          "Financiamento de veículos",
+          "Sistemas financeiros críticos"
+        ]
+      },
+      {
+        "title": "Arquitetura & Cloud",
+        "items": [
+          "Arquitetura de soluções",
+          "Arquitetura orientada a eventos",
+          "Kafka",
+          "Azure",
+          "AWS",
+          "Kubernetes",
+          "Amazon EKS",
+          "MongoDB",
+          "SQL Server",
+          "Conceitos cloud-native"
+        ]
+      },
+      {
+        "title": "Liderança Técnica",
+        "items": [
+          "Tomada de decisão técnica",
+          "Desenho de soluções",
+          "Liderança de engenharia",
+          "Mentoria",
+          "Colaboração multidisciplinar",
+          "Comunicação com stakeholders",
+          "Resolução de incidentes",
+          "Coordenação de entregas",
+          "Tradução de necessidades de negócio em soluções técnicas"
+        ]
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certificações & Formação",
+    "title": "Credenciais",
+    "certificationsTitle": "Certificações",
+    "educationTitle": "Formação",
+    "credentialPending": "Link da credencial pendente",
+    "viewCredential": "Ver credencial",
+    "certificationsList": [
+      {
+        "name": "Microsoft Certified: Azure Fundamentals",
+        "code": "AZ-900",
+        "issuer": "Microsoft",
+        "date": "Outubro de 2024",
+        "credentialUrl": null
+      }
+    ],
+    "educationList": [
+      {
+        "program": "Análise e Desenvolvimento de Sistemas",
+        "institution": "FIAP",
+        "status": "Curso não concluído"
+      }
+    ]
+  },
+  "common": {
+    "languageSwitchLabel": "Mudar idioma",
+    "english": "English",
+    "portuguese": "Português"
+  }
+}
