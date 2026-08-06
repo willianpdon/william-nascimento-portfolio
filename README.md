@@ -158,7 +158,17 @@ npm run format     # Prettier
 
 ## Deployment
 
-Not deployed yet. The build (`vite build`) outputs static files to `dist/`
-with relative asset paths, suited for an S3 + CloudFront static site. GitHub
-Actions + AWS OIDC deploy automation is planned for a later phase and will
-not run, and no AWS resources will be created, without explicit approval.
+Infrastructure as code is ready (`infra/`, AWS CDK + TypeScript) — S3 bucket
+behind CloudFront with Origin Access Control, security headers, and a
+GitHub Actions OIDC deploy role, all detailed in
+[`infra/README.md`](infra/README.md). No custom domain yet.
+
+CI/CD is wired up at `.github/workflows/deploy.yml`: every push to `main`
+lints, builds, syncs `dist/` to S3 and invalidates the CloudFront cache,
+authenticating via OIDC (no AWS access keys stored in GitHub).
+
+The AWS resources themselves are **not created automatically** — that only
+happens when `cdk deploy` is run manually from a terminal with AWS
+credentials configured (see `infra/README.md` for the full bootstrap/deploy/
+teardown steps and cost estimate, ~$0/month within the AWS Always Free
+tier).
